@@ -1,0 +1,442 @@
+* {
+	margin: 0 auto;
+	padding: 0;
+	font-size: 14px;
+	font-family: "微软雅黑";
+}
+
+input {
+	outline: medium;
+}
+
+a {
+	text-decoration: none;
+}
+
+div {
+	display: block;
+}
+
+ul {
+	list-style: none;
+}
+
+.header {
+	height: 36px;
+	background: none repeat scroll 0% 0% rgb(246, 246, 246);
+}
+
+.coner {
+	width: 1200px;
+	height: 36px;
+}
+
+.left {
+	float: left;
+}
+
+.left li {
+	float: left;
+	line-height: 36px;
+	text-align: center;
+	border-right: 1px solid rgb(226, 226, 226);
+}
+
+.z {
+	border-left: 1px solid rgb(226, 226, 226);
+	background: white;
+}
+
+.z a {
+	color: rgb(102, 102, 102);
+}
+
+.f a {
+	color: red;
+}
+
+.f a:hover {
+	text-decoration: underline;
+}
+
+.left li a {
+	padding: 0 25px;
+}
+
+.right {
+	float: right;
+}
+
+.right li {
+	float: left;
+	margin-left: 20px;
+}
+
+.right li a {
+	margin-left: 10px;
+	color: rgb(51, 51, 51);
+	line-height: 36px;
+	text-align: center;
+}
+
+.right li a:hover {
+	text-decoration: underline;
+}
+
+.header2 {
+	background: none repeat scroll 0% 0% rgb(255, 255, 255);
+}
+
+.top {
+	width: 1200px;
+	height: 85px;
+}
+
+.top a {
+	float: left;
+	margin-top: 20px;
+}
+
+.top .cen {
+	width: 565px;
+}
+
+.top .ri {
+	width: 237px;
+	height: 35px;
+	background: none repeat scroll 0% 0% rgb(239, 239, 239);
+	float: right;
+	margin-top: 25px;
+}
+
+.top .ri .text {
+	border: 0px none;
+	outline: 0px none;
+	background: none repeat scroll 0% 0% rgb(239, 239, 239);
+	width: 190px;
+	height: 30px;
+	line-height: 30px;
+	margin: 2px 0px 0px 10px;
+	color: rgb(212, 212, 212);
+	padding: 0;
+	float: left;
+}
+
+.top .ri .submit {
+	border: 0px none;
+	cursor: pointer;
+	height: 35px;
+	width: 37px;
+	background: url(../img/icon_01.png) no-repeat scroll 0px 0px transparent;
+	float: left;
+}
+
+.button {
+	width: 100%;
+	height: 40px;
+	background: none repeat scroll 0% 0% rgb(42, 20, 43);
+}
+
+.button .cone {
+	width: 1200px;
+}
+
+.button .nav {
+	float: left;
+	display: inherit;
+}
+
+.button .nav li {
+	height: 40px;
+	float: left;
+}
+
+.nav li a {
+	line-height: 40px;
+	padding: 10px 24px 0px;
+	color: white;
+}
+
+.nav li a:hover {
+	text-decoration: underline;
+}
+.nv{
+	position: relative;
+}
+#xl{	width: 100%;
+	    background: rgb(42, 20, 43);
+	    line-height: 35px;
+	    display:none;
+	    position: absolute;
+	    z-index: 100;
+}
+#xl a{
+	line-height: 40px;
+    padding: 0px 0px 0px;
+    color: white;
+    display:block;
+    text-align:  center;
+    
+
+}
+.button .nav2 {
+	height: 40px;
+	float: right;
+}
+
+.nav2 a {
+	line-height: 40px;
+	padding: 0px 15px;
+	color: white;
+	float: left;
+}
+
+.nav2 a:hover {
+	text-decoration: underline;
+}
+
+.nav2 a i {
+	background-position: 0px 0px;
+	width: 16px;
+	height: 16px;
+	float: left;
+	margin-top: 13px;
+	background: url(../img/icon-total.png) no-repeat scroll 0px 0px transparent;
+}
+
+.box {
+	width: 100%;
+	overflow: hidden;
+}
+
+.box .banenr {
+	width: 1280px;
+	height: 240px;
+	position: relative;
+}
+
+.box .banenr .lbt {
+	width: 1280px;
+	height: 240px;
+	overflow: hidden;
+}
+
+.jd {
+	position: absolute;
+	bottom: 9px;
+	left: 47%;
+}
+
+.jd span {
+	width: 10px;
+	height: 10px;
+	background: PINK;
+	float: left;
+	margin-left: 10px;
+	border-radius: 50%;
+}
+
+.jd .red {
+	background: red;
+}
+
+.ggy {
+	width: 980px;
+	margin: 30px auto;
+	overflow: hidden;
+}
+
+.ggy ul {
+	margin-left: 200px;
+}
+
+.ggy ul li {
+	float: left;
+	font-size: 16px;
+	margin-left: 25px;
+	line-height: 42px
+}
+
+.ggy ul li i {
+	display: inline;
+	float: left;
+	width: 42px;
+	height: 42px;
+	margin-right: 10px;
+}
+
+.jt1 {
+	background: url(../img/icon_02.png) no-repeat scroll 0px 0px transparent;
+	;
+}
+
+.jt2 {
+	background: url(../img/icon_03.png) no-repeat scroll 0px 0px transparent;
+	;
+}
+
+.jt3 {
+	background: url(../img/icon_04.png) no-repeat scroll 0px 0px transparent;
+	
+}
+
+
+.bodyer{
+	width: 100%;
+	overflow: hidden;
+}
+.bodyer .key{
+	width: 1220px;
+}
+.key ul li{
+	float: left;
+	width: 285px;
+    background: #FFF;
+    margin: 0 18px 18px 0;
+    border: #f6f6f6 solid 1px;
+   	
+}
+
+.pic img{
+	height: 285px;
+    overflow: hidden;
+    text-align: center;
+    width: 285px;
+    display: table-cell;
+    vertical-align: middle;
+}
+.kuang h3{
+	width: 270px;
+    height: 18px;
+    line-height: 18px;
+    overflow: hidden;
+    margin: 10px 10px 10px 5px;
+    position: relative;
+    font-weight: normal;
+   
+}
+.kuang h3 a{
+	 color: #333;
+	 
+}
+.kuang h3:hover{
+	text-decoration: underline;
+}
+.jg{
+	width: 270px;
+    height: 48px;
+    line-height: 40px;
+    position: relative;
+    padding: 0 10px 0px 5px;
+    background: #fff;
+    color: #ff3366;
+    
+}
+.jg .xj{
+	font-size: 30px;
+	float: left;
+}
+.jg .yh{
+    margin: 2px 0 0 5px;
+    height: 40px;
+    line-height: 18px;
+    float: left;
+    font-size: 12px;
+}
+ .yh .yj{
+	text-decoration: line-through;
+	
+	color: #bbb;
+}
+.dz{
+	color: #bbb;
+}
+.key button{
+	width: 1200px;
+	height: 34px;
+	margin: 20px 0;
+	background: #ea6a5b;
+	border: none;
+	color: white;
+}
+.key button:hover{
+	background: red;
+}
+.footer{
+	width: 100%;
+	border-top:1px solid rgb(206,0,63);
+	margin: 40px auto 0;
+	background: rgb(249,249,249);
+}
+.footer .coner{
+	width: 100%;
+	border-top: 3px solid rgb(248, 40, 92);
+	
+}
+.font_con{
+	width: 1100px;
+	padding: 0px 50px 30px;
+	
+}
+.font_con .s{
+	margin-top: 25px;
+	width: 1100px;
+	overflow: hidden;
+}
+.bj1{
+	display: block;
+	background: url(../img/font-1.gif) no-repeat scroll 0% 0% transparent;
+	background-position: 0px -5px ;
+	width: 86px;
+	height: 35px;
+}
+.lx{
+	margin-top: 35px;
+	float: right;
+	display:  inline;
+
+}
+.bj1:hover{
+	background: url(../img/font-1.gif) no-repeat scroll 0% 0% transparent;
+	background-position: 0px -52px ;
+}
+.c{
+	width: 1100px;
+	border-bottom: 1px dotted rgb(204, 204, 204);
+	padding:10px 0;
+	color: rgb(153, 153, 153);
+	
+}
+.c p span{
+	font-size: 12px;
+	margin: 5px 0;
+}
+.c p span a{
+	color: rgb(153, 153, 153);
+	font-size: 12px;
+}
+.c p a:hover{
+	text-decoration: underline;
+}
+.v{
+	text-align: center;
+	margin: 20px 0;
+	color: rgb(153, 153, 153);
+	font-size: 12px;
+	background: rgb(249,249,249);
+}
+.v a{
+	 font-size: 12px;
+	    color: rgb(94, 94, 94);
+	 
+}
+.v a:hover{
+	 text-decoration: underline;
+	   color: rgb(255, 51, 102);	
+}
+.p{
+	text-align: center;
+}
+.p a img{
+	margin-right: 27px;
+}
